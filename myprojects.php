@@ -29,30 +29,13 @@
 <h1 class="welcome-title">My Projects</h1>
 </div>								
 <div class="row">
-<div class="col-md-4">
-<h1><a href="firstproject.php">Chess</a></h1>
-<p>
-click on Chess to know more about me with chess
-<br>This was my first project
-</p>
-</div>
-<div class="col-md-4">
-<h1><a href="secondproject.php">Coding</a></h1>
-<p>
-click on Coding to know more about me with coding 
-<br>This was my second project
-</p>
-</div>
-<div class="col-md-4">
-<h1><a href="thirdproject.php">Maths</a></h1>
-<p>
-click on Maths to know more about me with Maths
-<br> this was my third project
-</p>
-</div>
 
 
+<?php include('functions.php') ?>
+      
+     <?php get_my_projects();
 
+?>
 </div>
 
 </div>

@@ -31,6 +31,7 @@
 </div>								
 <div class="row">
 
+<?php include_once('functions.php') ?>
 
 
 </div>
