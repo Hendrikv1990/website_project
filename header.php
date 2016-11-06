@@ -1,6 +1,5 @@
 <?php
-
-?>
+include_once('functions.php') ?>
 
 <div class="container-fluid">
    <div class="row">
@@ -21,9 +20,7 @@
 	   <li class="dropdown">
           <a href="myprojects.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Projects<span class="caret"></span></a>
 	   <ul class="dropdown-menu">
-            <li><a href="firstproject.php">Chess</a></li>
-            <li><a href="secondproject.php">Coding</a></li>
-            <li><a href="thirdproject.php">Math Problems</a></li>
+            <?php get_menu() ?>
           </ul>
 	   <li><a href="#">About Me</a></li>
 	   <li><a href="#">Contact Me</a></li>

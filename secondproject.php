@@ -23,12 +23,13 @@
    <?php include('header.php') ?>
 
 
-<div class="container-fluid">
-<div class="row">
-<img src="images/coding.jpeg" width="100%" height="610px" />
-<h1 class="welcome-title">CODING</h1>
-</div>								
-<div class="row">
+
+   <?php if(isset($_GET['id'])) 
+   {
+   get_project($_GET['id']);
+    } else {
+          echo "<div class='col-md-6 col-md-offset-3'><h1>Don't you dare!</h1></div>";
+    }?>
 
 
 

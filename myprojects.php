@@ -29,9 +29,6 @@
 <h1 class="welcome-title">My Projects</h1>
 </div>								
 <div class="row">
-
-
-<?php include('functions.php') ?>
       
      <?php get_projects();
 

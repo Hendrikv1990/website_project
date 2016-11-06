@@ -23,13 +23,19 @@
    <?php include_once('header.php') ?>
 
 
-<div class="container-fluid">
+   <?php if(isset($_GET['id'])) 
+   {
+   get_project($_GET['id']);
+    } else {
+          echo "<div class='col-md-6 col-md-offset-3'><h1>Don't you dare!</h1></div>";
+    } ?>
+<!-- <div class="container-fluid">
 <div class="row">
 <img src="images/chess.jpeg" width="100%" height="610px" />
 <h1 class="welcome-title">CHESS</h1>
 </div>								
 <div class="row">
-
+ -->
 
 
 </div>
