@@ -112,7 +112,8 @@ function create_project_page($row){
 <h3 class="welcome-paragraph"><?php echo $row['description'] ?></h3>
 
 </div>								
-
+</div>								
+<div class="row">
 <?php
 }
 
