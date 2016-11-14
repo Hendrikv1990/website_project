@@ -20,6 +20,7 @@
     <![endif]-->
   </head>
   <body>
+
    <?php include_once('header.php') ?>
 
 
@@ -32,10 +33,10 @@
 <!-- <div class="container-fluid">
 <div class="row">
 <img src="images/chess.jpeg" width="100%" height="610px" />
-<h1 class="welcome-title">CHESS</h1>
+<h1 class="welcome-title">coding</h1>    
 </div>								
-<div class="row">
- -->
+<div class="row"> -->
+
 
 
 </div>
