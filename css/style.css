@@ -70,3 +70,29 @@
     margin-left: 2px;
     vertical-align: middle;
 }
+.welcome-paragraph {
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    color: #000;
+    font-family: 'Eczar', serif;
+}
+.welcome-title {
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 5%;
+    color: #000;
+    font-family: 'Eczar', serif;
+}
+.welcome-title {
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 5%;
+    color: #fff;
+    font-family: 'Eczar', serif;
+}    
